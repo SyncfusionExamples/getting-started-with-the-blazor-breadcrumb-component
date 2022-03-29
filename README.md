@@ -16,7 +16,7 @@ Users tend to understand visual information better than text. Include [icons](ht
 
 ### Templates
 
-Blazor has [templated](https://blazor.syncfusion.com/documentation/breadcrumb/templates?utm_source=github&utm_medium=listing&utm_campaign=blazor-navigations-github-samples) components which accepts one or more UI segments as input that can be rendered as part of the component during component rendering
+Blazor has [templated](https://blazor.syncfusion.com/documentation/breadcrumb/templates?utm_source=github&utm_medium=listing&utm_campaign=blazor-navigations-github-samples) components which accepts one or more UI segments as input that can be rendered as part of the component during component rendering.
 
 ### Menu mode
 
@@ -55,7 +55,7 @@ Hidden mode shows the maximum number of items possible in the container space an
 
 
 ## About Syncfusion Blazor Components
-The Syncfusion's Blazor components library offers over 70 UI components to work with Blazor server-side and client-side (Blazor WebAssembly) projects seamlessly. In addition to Breadcrumb, we provide popular Blazor Components such as DataGrid,Charts, Scheduler, Diagram, Word Processor, and more.
+The Syncfusion's Blazor components library offers over 70 UI components to work with Blazor server-side and client-side (Blazor WebAssembly) projects seamlessly. In addition to Breadcrumb, we provide popular Blazor Components such as DataGrid, Charts, Scheduler, Diagram, Word Processor, and more.
 
 ### About Syncfusion
 Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 27,000 customers and more than 1 million users, including large financial institutions, Fortune 500 companies, and global IT consultancies.

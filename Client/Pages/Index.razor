@@ -1,0 +1,27 @@
+﻿@page "/"
+
+@using Syncfusion.Blazor.Buttons
+
+<SfBreadcrumb EnableActiveItemNavigation="true">
+    <BreadcrumbItems>
+        <BreadcrumbItem Text="Home" Url="https://blazor.syncfusion.com/demos/breadcrumb/default-functionalities"></BreadcrumbItem>
+        <BreadcrumbItem Text="Navigation" Url="counter"></BreadcrumbItem>
+    </BreadcrumbItems>
+    <BreadcrumbTemplates>
+        <ItemTemplate>
+            <SfButton CssClass="e-link">
+                <a href="@context.Url">@context.Text</a>
+            </SfButton>
+        </ItemTemplate>
+        <SeparatorTemplate>
+            <span class="e-icons e-arrow"></span>
+        </SeparatorTemplate>
+    </BreadcrumbTemplates>
+</SfBreadcrumb>
+
+<style>
+    .e-arrow::before {
+        content: '\e763';
+        font-size: 12px;
+    }
+</style>

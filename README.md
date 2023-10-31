@@ -2,11 +2,16 @@
 
 The [Blazor Breadcrumb](https://www.syncfusion.com/blazor-components/blazor-breadcrumb?utm_source=github&utm_medium=listing&utm_campaign=blazor-breadcrumb-github-samples) is a graphical user interface that serves as a navigation header for your web application or site. A quick-start project that helps you to get start with the Syncfusion Breadcrumb component in a Blazor WebAssembly application. This project also contains the code to configure a few of its basic features, like adding items, icons, navigation, and custom templates.
 
-## Project prerequisites
-Make sure that you have the compatible versions of [Visual Studio 2019 (version 16.6+)]( https://visualstudio.microsoft.com/downloads?utm_source=github&utm_medium=listing&utm_campaign=blazor-gantt-chart-github-samples) and [.NET Core SDK 3.1.8](https://dotnet.microsoft.com/download/dotnet-core/3.1?utm_source=github&utm_medium=listing&utm_campaign=blazor-gantt-chart-github-samples) or later version in your machine before starting to work on this project.
+## Prerequisites
 
-## How to run this application
-To run this application, you need to first clone the `getting-started-with-the-blazor-breadcrumb-component` repository and then open it in Visual Studio 2019. Now, simply build and run your project to view the output.
+* Visual Studio 2022
+
+## How to run the project
+
+* Checkout this project to a location in your disk.
+* Open the solution file using the Visual Studio 2022.
+* Restore the NuGet packages by rebuilding the solution.
+* Run the project.
 
 ## Features and Benefits
 

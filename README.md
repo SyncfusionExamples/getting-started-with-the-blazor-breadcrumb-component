@@ -15,8 +15,8 @@ This project helps developers get started with the Syncfusion Blazor Breadcrumb 
 
 ## Installation and Running the Project
 1. Clone this project to a local directory.
-2. Open the solution file using Visual Studio 2022.
-3. Restore NuGet packages by rebuilding the solution.
+2. Open the project in Visual Studio 2022 or later.
+3. Restore NuGet packages by rebuilding the project.
 4. Build and run the project to view the Breadcrumb output.
 
 ## Features and Benefits
@@ -69,7 +69,7 @@ Hidden mode displays only the maximum number of items that can fit in the contai
 # Troubleshooting
 - Ensure the correct .NET SDK and Visual Studio version are installed.
 - Restore NuGet packages if build errors occur.
-- Rebuild the solution if UI changes are not reflected.
+- Rebuild the project if UI changes are not reflected.
 - Use browser developer tools to inspect runtime errors.
 
 ## Support

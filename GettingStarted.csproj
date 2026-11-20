@@ -14,8 +14,4 @@
     <PackageReference Include="Syncfusion.Blazor.Themes" Version="35.2.12" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Shared\GettingStarted.Shared.csproj" />
-  </ItemGroup>
-
 </Project>

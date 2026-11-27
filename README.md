@@ -10,12 +10,13 @@ This sample demonstrates the Syncfusion [Blazor Breadcrumb](https://www.syncfusi
 - Demonstrates hierarchical navigation using multiple `BreadcrumbItem` definitions.
 - Configures breadcrumb items through the `Text` property to represent navigation paths.
 - Uses the `Url` property to enable route based navigation.
-- Demonstrates breadcrumb item icons using the `IconCss` property.
-- Shows overflow handling through menu-style breadcrumb rendering.
-- Demonstrates hidden-item behavior for compact layouts.
-- Includes template customization for breadcrumb item rendering.
-- Displays common navigation patterns used in dashboards, portals, and application hierarchies.
-- Showcases responsive breadcrumb navigation scenarios in Blazor applications.
+- Enables navigation for the active breadcrumb item using the EnableActiveItemNavigation property.
+- Customizes breadcrumb item rendering through the ItemTemplate template.
+- Integrates the Syncfusion SfButton component within breadcrumb item templates.
+- Customizes breadcrumb separator rendering through the SeparatorTemplate template.
+- Uses a custom CSS-based icon for breadcrumb separators.
+- Demonstrates template-based customization for creating a personalized breadcrumb navigation experience.
+- Shows navigation patterns commonly used in web applications to help users understand their current location within the application hierarchy.
 
 ## Prerequisites
 
@@ -37,9 +38,10 @@ This sample demonstrates the Syncfusion [Blazor Breadcrumb](https://www.syncfusi
 
 1. Open the repository folder in Visual Studio Code.
 2. Open the integrated terminal.
-3. Navigate to the startup project directory for the hosted application.
+3. Navigate to the Server project directory.
 
 ```bash
+cd Server  
 dotnet restore
 dotnet run
 ```
@@ -50,7 +52,13 @@ dotnet run
 
 - `GettingStarted.sln` — Solution file for the sample application.
 
-- `Client/Pages/Index.razor` — Main page demonstrating breadcrumb navigation, icons, URL navigation, templates, menu mode, and hidden item handling.
+- `Client/` — Contains the Blazor WebAssembly client application.
+
+- `Client/Pages/Index.razor` — Main page demonstrating breadcrumb navigation, URL navigation, active item navigation, custom item templates, and custom separator templates.
+
+`Server/` — Hosts and serves the Blazor WebAssembly application.
+
+`Shared/` — Contains shared models and resources used by both the Client and Server projects.
 
 ## Support and Feedback
 

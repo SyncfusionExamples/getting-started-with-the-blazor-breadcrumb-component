@@ -56,9 +56,9 @@ dotnet run
 
 - `Client/Pages/Index.razor` — Main page demonstrating breadcrumb navigation, URL navigation, active item navigation, custom item templates, and custom separator templates.
 
-`Server/` — Hosts and serves the Blazor WebAssembly application.
+- `Server/` — Hosts and serves the Blazor WebAssembly application.
 
-`Shared/` — Contains shared models and resources used by both the Client and Server projects.
+- `Shared/` — Contains shared models and resources used by both the Client and Server projects.
 
 ## Support and Feedback
 

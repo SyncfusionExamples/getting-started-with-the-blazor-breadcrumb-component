@@ -38,15 +38,25 @@ This sample demonstrates the Syncfusion [Blazor Breadcrumb](https://www.syncfusi
 
 1. Open the repository folder in Visual Studio Code.
 2. Open the integrated terminal.
-3. Navigate to the Server project directory.
+3. Navigate to the `Server` project directory:
 
 ```bash
-cd Server  
+cd Server 
+```
+
+4. Restore project dependencies:
+
+```bash
 dotnet restore
+```
+
+5. Run the application:
+
+```bash
 dotnet run
 ```
 
-4. Open the application URL displayed in the terminal after the application starts.
+6. Open the local URL displayed in the terminal after the application starts.
 
 ## Project Structure
 
